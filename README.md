@@ -1,0 +1,32 @@
+# Slide
+Slide is an extremely lightweight jQuery plugin for interactive slideshows.
+
+## Usage
+1. Ensure **jQuery** is included on your page (using a `<script>` tag or otherwise)
+2. Include `slide.js` with a `<script>` tag
+3. Add the following container HTML to your page: `<div class="slider"></div>` 
+4. Fill the slider container with your slides (images, divs etc.) which must all have the same width and height.
+5. Activate the plugin with the following code snippet
+
+```javascript
+$(document).ready(function() {
+    $('.slider').slide();
+});
+```
+
+## Options
+Below is an example of all the options available for you to configure and their default values.
+```javascript
+$('element').slide({
+    speed: 1000, // Animation Speed in milliseconds
+    easingFunc: 'ease', // CSS transition easing function
+    controls: {
+        visible: true,
+        prevLabelText: 'Prev',
+        nextLabelText: 'Next'
+    }
+});
+```
+
+## License
+Slide is no longer actively maintained and is only on GitHub for archive purposes. Feel free to use the code in any way you like, enjoy!
