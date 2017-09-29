@@ -4,10 +4,17 @@ Slide is an extremely lightweight jQuery plugin for interactive slideshows.
 ## Usage
 1. Ensure **jQuery** is included on your page (using a `<script>` tag or otherwise)
 2. Include `slide.js` with a `<script>` tag
-3. Add the following container HTML to your page: `<div class="slider"></div>` 
+3. Add the container HTML to your page: `<div class="slider"></div>` 
 4. Fill the slider container with your slides (images, divs etc.) which must all have the same width and height.
-5. Activate the plugin with the following code snippet
-
+5. Add one rule to your CSS:
+```css
+.slider div {
+  width:100%;
+  height:100%;
+  display:inline-block;
+}
+```
+6. Activate the plugin with the following code snippet
 ```javascript
 $(document).ready(function() {
     $('.slider').slide();
