@@ -1,7 +1,14 @@
-# Slide
-Slide is an extremely lightweight jQuery plugin for interactive slideshows.
+<h1 align="center">
+  <img src="http://zesh.me/pZgxqy+" width="100" />
+  <br/>
+  <span align="center">
+    Slide
+  </span>
+</h1>
 
-## Usage
+<p align="center">Slide is an <strong>extremely lightweight</strong> (~2.13kB minified) jQuery plugin for interactive slideshows.</p>
+
+## 📚 Usage
 1. Ensure **jQuery** is included on your page (using a `<script>` tag or otherwise)
 2. Include `slide.js` with a `<script>` tag
 3. Add the container HTML to your page: `<div class="slider"></div>` 
@@ -21,7 +28,7 @@ $(document).ready(function() {
 });
 ```
 
-## Options
+## ⚙️ Options
 Below is an example of all the options available for you to configure and their default values.
 ```javascript
 $('element').slide({
@@ -35,5 +42,5 @@ $('element').slide({
 });
 ```
 
-## License
+## 📄 License
 Slide is no longer actively maintained and is only on GitHub for archive purposes. Feel free to use the code in any way you like, enjoy!
